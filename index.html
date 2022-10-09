@@ -18,11 +18,11 @@
             </div>
             <ul class="header__menu">
                 <li class="header__menu-item"><a href="#about">About Us</a></li>
-                <li class="header__menu-item"><a href="#places">Itinerary</a></li>
+                <li class="header__menu-item"><a href="#route">Itinerary</a></li>
                 <li class="header__menu-item"><a href="#testimonials">Testimonials</a></li>
                 <li class="header__menu-item"><a href="#blog">Blog</a></li>
                 <li class="header__menu-item"><a href="#contacts">Contacts</a></li>
-                <li class="header__menu-item button"><a href="#contact-form">Join Us<span
+                <li class="header__menu-item button"><a href="#contact-us-form">Join Us<span
                             class="pointer-sign">→</span></a>
                 </li>
             </ul>
@@ -61,7 +61,7 @@
         </div>
     </header>
     <main class="main">
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about__title">
                 <span class="divider">━</span>ABOUT US
             </h2>
@@ -111,7 +111,7 @@
                 </article>
             </div>
         </section>
-        <section class="route">
+        <section class="route" id="route">
             <div class="route__img-container">
                 <img width="200" class="route__img" src="img/norway-map.png" alt="Map of Norway">
             </div>
@@ -272,7 +272,7 @@
                             <p class="places__proposal-description">
                                 - Transfer from the airport
                             </p>
-                            <a href="#contacts" class="places__redirection button">Book now →</a>
+                            <a href="#contact-us-form" class="places__redirection button">Book now →</a>
                         </div>
                     </div>
                 </article>
@@ -358,7 +358,7 @@
                             <p class="places__proposal-description">
                                 - Cable car ride
                             </p>
-                            <a href="#contacts" class="places__redirection button">Book now →</a>
+                            <a href="#contact-us-form" class="places__redirection button">Book now →</a>
                         </div>
                     </div>
                 </article>
@@ -402,7 +402,7 @@
                             <p class="places__proposal-description">
                                 - Boat trip
                             </p>
-                            <a href="#contacts" class="places__redirection button">Book now →</a>
+                            <a href="#contact-us-form" class="places__redirection button">Book now →</a>
                         </div>
                     </div>
                 </article>
@@ -445,7 +445,7 @@
                             <p class="places__proposal-description">
                                 - Northern Lights
                             </p>
-                            <a href="#contacts" class="places__redirection button">Book now →</a>
+                            <a href="#contact-us-form" class="places__redirection button">Book now →</a>
                         </div>
                     </div>
                 </article>
@@ -539,31 +539,31 @@
                     class="faq__image">
             </div>
         </section>
-        <section class="contacts">
-            <div class="contacts__form-container">
-                <h2 class="contacts__form-title">
+        <section class="contact-us" id="contact-us">
+            <div class="contact-us__container">
+                <h2 class="contacts-us__title">
                     <span class="divider">━</span>CONTACT US
                 </h2>
-                <h3 class="contacts__form-subtitle">
+                <h3 class="contact-us__subtitle">
                     Book your journey!
                 </h3>
-                <p class="contacts__form-description">
+                <p class="contact-us__description">
                     Complete the form below, and we will contact you soon to discuss the details!
                 </p>
-                <form action="" class="contacts__form">
+                <form action="" class="contact-us__form" id="contact-us-form">
                     <input type="text" placeholder="Your Name" required name="client-name">
                     <input type="tel" placeholder="Your Phone" required name="client-phone">
                     <input type="email" placeholder="Your Email" required name="client-email">
-                    <div class="contacts__form-date-input-container">
+                    <div class="contact-us__form-date-input-container">
                         <label for="dtae">Choose date
                             <input type="date" name="chosen-date" id="date">
                         </label>
                     </div>
-                    <input type="submit" value="Request a quote" class="contacts__form-submit-input">
+                    <input type="submit" value="Request a quote" class="contact-us__form-submit-input">
                 </form>
             </div>
         </section>
-        <section class="testimonials">
+        <section class="testimonials" id="testimonials">
             <h2 class="testimonials__title">
                 <span class="divider">━</span>TESTIMONIALS
             </h2>
@@ -630,7 +630,7 @@
                 </article>
             </div>
         </section>
-        <section class="blog">
+        <section class="blog" id="blog">
             <h2 class="blog__title">
                 <span class="divider">━</span>BLOG
             </h2>
@@ -671,7 +671,7 @@
                 </p>
             </div>
         </div>
-        <div class="footer__company-info">
+        <div class="footer__company-info" id="contacts">
             <div class="footer__company-info-item">
                 <div class="footer__company-info-item-icon-container">
                     <img width="40" src="img/svg/phone.svg" alt="Phone Icon" class="footer__company-info-item-icon">
