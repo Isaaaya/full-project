@@ -1,0 +1,7 @@
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: #232428;
+    background: url("../img/header-background-image.png") no-repeat center center;
+    background-size: cover;
+}
