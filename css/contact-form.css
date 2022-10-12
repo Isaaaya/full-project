@@ -9,21 +9,27 @@
     max-width: 450px;
     height: 630px;
     background-color: #232428;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     margin: auto;
     flex: 1;
     flex-direction: column;
-    align-content: space-around;
     text-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 input {
     display: block;
     margin: auto;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     justify-content: center;
-    width: 375px;
-    height: 45px;;
+    width: 350px;
+    height: 45px;
+}
+
+input[type="submit"] {
+    margin-top: 60px;
 }
