@@ -3,11 +3,12 @@
     background-size: cover;
     height: 800px;
     display: flex;
+    max-width: 100vw;
 }
 
 .contact-us__container {
-    max-width: 450px;
-    height: 630px;
+    max-width: 90%;
+    max-height: 700px;
     background-color: #232428;
     padding: 50px;
     padding-left: 50px;
@@ -25,11 +26,18 @@ input {
     display: block;
     margin: auto;
     margin-bottom: 14px;
+    margin-top: 10px;
+    padding: 14px 20px;
     justify-content: center;
-    width: 350px;
     height: 45px;
     background-color: var(--input-bg-color);
     border: #232428;
+    width: 100%;
+}
+
+.contact-us__form-container {
+    width: 100%;
+    margin-top: 30px;
 }
 
 input[type="submit"] {
