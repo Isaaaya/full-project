@@ -16,3 +16,8 @@
     --input-bg-color: #2d2e33;
     --input-button-bg-color: #18a8ee;
 }
+
+::placeholder {
+    padding-left: 20px;
+    font-size: 14px;
+}

@@ -37,6 +37,7 @@ input[type="submit"] {
     background-color: var(--input-button-bg-color);
     color: var(--main-light-color);
     font-weight: 600;
+    font-size: 14px;
 }
 
 input[type="submit"]:hover {
