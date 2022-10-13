@@ -82,9 +82,13 @@ input[type="submit"]:hover {
 
 
 @media (min-width: 768px) {
-    .contact-us__container {
-        max-width: 375px;
-        max-height: 730px;
-        margin: auto;
+    .contact-us {
+        max-width: 100vw;
     }
+    .contact-us__container {
+        max-width: 45%;
+        max-height: 730px;
+        margin-left: 50px;
+    }
+    
 }
