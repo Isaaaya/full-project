@@ -12,7 +12,7 @@
     --font-for-subtitle: "Playfair Dispay", serif;
     --main-text-color: rgba(255,255,255,0.6);
     --main-light-color: #ffffff;
-    --divider-sign-color: #ee2d14;
+    --sign-color: #ee2d14;
     --input-bg-color: #2d2e33;
     --input-button-bg-color: #18a8ee;
 }
@@ -25,4 +25,14 @@
 a {
     text-decoration: none;
     color: #ffffff;
+    margin-left: 5px;
+}
+
+span {
+    margin-right: 3px;
+}
+
+.divider-white {
+    color: var(--main-light-color);
+    margin-left: 5px;
 }

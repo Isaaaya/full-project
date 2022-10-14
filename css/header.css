@@ -1,9 +1,16 @@
 .header {
     max-width: 100vw;
-    height: 800px;
+    max-height: 100%;
     background-color: #232428;
     background: url("../img/header-background-image.png") no-repeat center center;
     background-size: cover;
+}
+
+.header__nav {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    justify-content: space-between;
 }
 
 
@@ -15,10 +22,12 @@
     flex: 1;
     list-style-type: none;
     margin-top: 30px;
+    max-width: 500px;
 }
 
 .header__nav-logo-container {
     margin: auto;
+    margin-left: 20px;
 }
 
 
@@ -26,17 +35,99 @@
     padding: 5px;
 }
 
-.header__nav {
-    display: flex;
-    flex-direction: row;
-}
-
 .header__logo-img {
     margin: auto;
     margin-top: 30px;
-    margin-left: 30px;
     display: inline;
 }
 
 
+.header__logo-img {
+    width: 200px;
+}
 
+.header__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.header__banner-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 800px;
+}
+
+.header__promo-image {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.header__play-icon {
+    width: 20px;
+}
+
+.header__subtitle {
+    font-size: 12px;
+    color: var(--main-light-color);
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.header__title {
+    color: var(--main-light-color);
+    font-family: var(--font-for-subtitle);
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.header__promo-video-container {
+    display: flex;
+    margin: 30px auto;
+    margin-left: 0;
+}
+
+.header__promo-video {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.header__aside {
+    color: var(--main-light-color);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    letter-spacing: .03em;
+}
+
+.header__aside-title {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.header__aside-subtitle {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.header__aside-description {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.header__aside-swiper {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.header__aside-swiper a:hover {
+    text-decoration: underline;
+}
