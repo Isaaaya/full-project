@@ -133,13 +133,12 @@
 }
 
 @media (min-width: 768px) {
-    .header__promo-image {
+    /* .header__promo-image {
         width: 215px;
         max-width: 315px;
-    }
+    } */
     .header__aside {
-        width: 250px;
-        max-width: 40%;
+        max-width: 30vw;
         height: 335px;
         align-self: flex-end;
     }
