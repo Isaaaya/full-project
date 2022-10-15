@@ -133,13 +133,18 @@
 }
 
 @media (min-width: 768px) {
-    /* .header__promo-image {
-        width: 215px;
-        max-width: 315px;
-    } */
     .header__aside {
         max-width: 30vw;
         height: 335px;
         align-self: flex-end;
+        display: flex;
+    }
+    .header__title {
+        font-size: 125px;
+        margin-top: 20px;
+    }
+    .header__promo-video-container {
+        display: inline;
     }
 }
+
