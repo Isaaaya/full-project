@@ -150,5 +150,11 @@
         align-self: start;
         margin-top: 30px;
     }
+    .button {
+        border: 2px solid white;
+    }
+    .header__nav {
+        margin-right: 20px;
+    }
 }
 
