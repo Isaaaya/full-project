@@ -22,7 +22,6 @@
 
 .about__subtitle {
     font-size: 34px;
-    /* color: var(--additional-dark-text-color); */
     font-family: var(--font-for-subtitle);
     margin-bottom: 50px;
     line-height: 1.2;
@@ -34,4 +33,39 @@
     font-size: 19px;
     line-height: 1.7;
     margin-bottom: 30px
+}
+
+.about__plan {
+    max-width: 100vw;
+    max-height: 100%;
+    background-color: #232428;
+    background: url("../img/person-on-beach.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+.about__plan-item {
+    max-width: 90%;
+    max-height: 100%;
+    background-color: var(--main-light-color);
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+    color: var(--about-section-text-color);
+}
+
+.about__plan-item-image {
+    max-width: 60%;
+    height: 130px;
+}
+
+.about__plan-item-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.about__plan-item-description {
+    font-size: 14px;
 }
