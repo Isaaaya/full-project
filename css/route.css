@@ -87,6 +87,7 @@
 .route__offers-item-title {
     color: var(--main-light-color);
     font-size: 18px;
+    letter-spacing: .05em;
 }
 
 .route__offers-item-description {
@@ -96,4 +97,48 @@
     letter-spacing: .03em;
     font-size: 14px;
     margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .route {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .route__img {
+        margin-top: 100px;
+    }
+    .route__text-content {
+        margin-top: 140px;
+    }
+    .route__subtitle {
+        font-size: 39px;
+    }
+    .route__offers-item-title {
+        font-size: 19px;
+    }
+    .route__offers-item-image {
+        width: 40px;
+        height: 70px;
+    }
+    .route__offers-item-image-container {
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .route__title {
+        font-size: 13px;
+    }
+    .route__subtitle {
+        font-size: 45px;
+    }
+    .route__offers-item-title {
+        font-size: 21px;
+    }
+    .route__offers-item-description {
+        font-size: 15px;
+    }
 }
