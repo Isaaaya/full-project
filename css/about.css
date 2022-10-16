@@ -17,13 +17,12 @@
     font-size: 12px;
     color: var(--main-dark-text-color);
     font-weight: 500;
-    margin-bottom: 20px;
 }
 
 .about__subtitle {
     font-size: 34px;
     font-family: var(--font-for-subtitle);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     line-height: 1.2;
     letter-spacing: .03em;
 }
@@ -44,7 +43,7 @@
 }
 
 .about__plan-item {
-    max-width: 90%;
+    max-width: 85%;
     max-height: 100%;
     background-color: var(--main-light-color);
     margin: auto;
@@ -52,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 30px;
+    padding: 40px;
     color: var(--about-section-text-color);
 }
 
@@ -89,6 +88,10 @@
     .about__description-content {
         font-size: 19px;
     }
+    .about__plan {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (min-width: 992px) {
@@ -102,3 +105,4 @@
         max-width: 40%;
 }
 }
+
