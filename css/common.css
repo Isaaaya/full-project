@@ -10,15 +10,17 @@
 :root {
     font-family: "Roboto", sans-serif;
     --font-for-subtitle: "Playfair Dispay", serif;
-    --main-text-color: rgba(255,255,255,0.6);
+    --main-text-color: rgba(255,255,255,0.5);
     --main-light-color: #ffffff;
     --main-dark-text-color: #6f7380;
     --additional-dark-text-color: #505155;
     --sign-color: #ee2d14;
     --input-bg-color: #2d2e33;
     --input-button-bg-color: #18a8ee;
-    --accented-text-color: #18a8ee;
+    --accented-text-color-light-bg: #18a8ee;
+    --accented-text-color-dark-bg: #505155;
     --about-section-text-color: #232428;
+    --dark-bg-main-text-color: #a9a9a9;
 }
 
 ::placeholder {
@@ -41,6 +43,10 @@ span {
     margin-left: 5px;
 }
 
-.accented-text {
-    color: var(--accented-text-color);
+.accented-text-light-bg {
+    color: var(--accented-text-color-light-bg);
+}
+
+.accented-text-dark-bg {
+    color: var(--accented-text-color-dark-bg);
 }

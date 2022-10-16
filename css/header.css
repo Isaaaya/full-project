@@ -106,6 +106,7 @@
     flex: 1;
     flex-direction: column;
     letter-spacing: .03em;
+    line-height: 1.6;
 }
 
 .header__aside-title {
@@ -119,7 +120,7 @@
 }
 
 .header__aside-description {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 12px;
 }
 
@@ -171,3 +172,8 @@
     }
 }
 
+@media (min-width: 992px) {
+    .header__aside-description{
+        font-size: 13px;
+    }
+}
