@@ -2,6 +2,9 @@
     max-width: 100vw;
     max-height: 100%;
     margin: 40px auto;
+    background-color: #232428;
+    background: url("../img/person-on-beach.jpeg") no-repeat center center;
+    background-size: cover;
 }
 
 .about__info {
@@ -36,10 +39,8 @@
 
 .about__plan {
     max-width: 100vw;
-    max-height: 100%;
-    background-color: #232428;
-    background: url("../img/person-on-beach.jpeg") no-repeat center center;
-    background-size: cover;
+    height: 150%;
+    
 }
 
 .about__plan-item {
@@ -47,26 +48,29 @@
     max-height: 100%;
     background-color: var(--main-light-color);
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
     color: var(--about-section-text-color);
 }
 
 .about__plan-item-image {
-    max-width: 60%;
-    height: 130px;
+    max-width:  200px;
+    max-height: 200px;
+    margin-top: 20px;
+    margin: auto;
 }
 
 .about__plan-item-title {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin: 10px 0;
 }
 
 .about__plan-item-description {
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -91,6 +95,14 @@
     .about__plan {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .about__plan-item-image {
+        max-width:  150px;
+        max-height: 150px;
+    }
+    .about__plan-item {
+        height: 300px;
+        max-height: 100%;
     }
 }
 
