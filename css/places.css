@@ -1,3 +1,121 @@
 .places {
-    
+    max-width: 100vw;
+    max-height: 100;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.places__title {
+    font-size: 12px;
+    color: var(--main-dark-text-color);
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: .03em;
+}
+
+.places__subtitle {
+    font-size: 34px;
+    font-family: var(--font-for-subtitle);
+    color: var(--additional-dark-text-color);
+    letter-spacing: .03em;
+    font-weight: 600;
+}
+
+.places__description {
+    font-size: 19px;
+    color: var(--additional-dark-text-color);
+    letter-spacing: .05em;
+    margin-top: 30px;
+    font-weight: 100;
+    max-width: 90%;
+}
+
+.places__city-item {
+    margin-bottom: 70px;
+}
+
+.places__city-item-image {
+    margin-top: 40px;
+    max-width: 90%;
+}
+
+.places__city-item-title {
+    font-size: 12px;
+    color: var(--main-dark-text-color);
+    margin-top: 30px;
+}
+
+.places__city-item-subtitle {
+    font-size: 30px;
+    color: var(--additional-dark-text-color);
+    font-family: var( --font-for-subtitle);
+    margin-top: 35px;
+}
+
+.places__city-item-duration {
+    font-size: 19px;
+    color: var(--sign-color);
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.places__city-item-place {
+    font-size: 14px;
+    color: var(--additional-dark-text-color);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.places__city-item-description {
+    font-size: 17px;
+    color: var(--places-description-text-color);
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.places__proposal-image {
+    width: 20px;
+    min-width: 20px;
+    height: 24px;
+    min-height: 24px;
+    margin-right: 10px;
+}
+
+.places__proposal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.places__proposals {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+}
+
+.places__proposal-description {
+    font-size: 14px;
+    color: var(--additional-dark-text-color);
+}
+
+.places__redirection {
+    color: var(--main-light-color);
+    width: 130px;
+    padding: 13px;
+    background-color: var(--input-button-bg-color);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.places__redirection:hover {
+    background-color: var(--about-section-text-color);
+    transition: 0.3s;
 }
