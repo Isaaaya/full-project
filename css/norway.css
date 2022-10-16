@@ -14,7 +14,7 @@
 }
 
 .norway__logo-image {
-    width: 100%;
+    max-width: 100%;
 }
 
 .norway__title-container {
@@ -30,8 +30,120 @@
 
 .norway__statistics-container {
     text-align: center;
+    color: var(--about-section-text-color);
+    margin-top: 50px;
 }
 
 .norway__statistics-item {
     margin: 40px auto;
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.norway__statistics-title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.norway__statistics-description {
+    font-size: 14px;
+    color: var(--accented-text-color-dark-bg);
+    margin-top: 25px;
+}
+
+.norway__image {
+    max-width: 90%;
+}
+
+.norway__title {
+    font-size: 12px;
+    color: var(--main-dark-text-color);
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: .03em;
+}
+
+.norway__subtitle {
+    font-size: 34px;
+    font-family: var(--font-for-subtitle);
+    color: var(--additional-dark-text-color);
+    letter-spacing: .03em;
+    font-weight: 600;
+}
+
+.norway__description {
+    font-size: 19px;
+    color: var(--additional-dark-text-color);
+    letter-spacing: .05em;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.norway__title-container > p {
+    margin-top: 50px;
+}
+
+.norway__description-container {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .norway__upper-part {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 95%;
+        margin-left: 20px;
+    }
+    .norway__subtitle {
+        font-size: 39px;
+    }
+    .norway__description {
+        line-height: 1.7;
+    }
+    .norway__statistics-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .norway__statistics-item {
+        margin-bottom: 10px;
+    }
+    .norway__image-container {
+        display: flex;
+        margin: auto;
+        max-width: 90%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .norway__title {
+        font-size: 13px;
+    }
+    .norway__subtitle {
+        font-size: 45px;
+    }
+    .norway__offers-item-title {
+        font-size: 21px;
+    }
+    .norway__offers-item-description {
+        font-size: 15px;
+    }
+    .norway__statistics-container {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: repeat(4, auto);
+        justify-content:space-around;
+        width: 90%;
+        margin-left: 50px;
+    }
+    .norway__image-container {
+        margin-top: -150px;
+        width: 100%;
+    }
 }
