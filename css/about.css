@@ -69,3 +69,36 @@
 .about__plan-item-description {
     font-size: 14px;
 }
+
+@media (min-width: 768px) {
+    .about__main-info {
+        width: 40%;
+        margin-right: 10px;
+    }
+    .about__description {
+        width: 45%;
+    }
+    .about__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about__subtitle {
+        font-size: 39px;
+    }
+    .about__description-content {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about__subtitle {
+        font-size: 45px;
+    }
+    .about__main-info {
+        max-width: 60%;
+    }
+    .about__description {
+        max-width: 40%;
+}
+}
