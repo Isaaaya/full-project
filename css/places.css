@@ -34,6 +34,7 @@
 
 .places__city-item {
     margin-bottom: 70px;
+    max-height: 100%;
 }
 
 .places__city-item-image {
@@ -105,17 +106,54 @@
     color: var(--additional-dark-text-color);
 }
 
+.places__redirection-container {
+    margin-top: 30px;
+}
+
 .places__redirection {
     color: var(--main-light-color);
-    width: 130px;
+    max-width: 130px;
     padding: 13px;
     background-color: var(--input-button-bg-color);
     text-align: center;
     font-size: 14px;
-    margin-top: 50px;
 }
 
 .places__redirection:hover {
     background-color: var(--about-section-text-color);
     transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+    .places__city-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .places__city-item-duration {
+        display: inline;
+    }
+    .places__city-item-place {
+        display: inline;
+        margin-left: 100px;
+    }
+    .places__city-item-subtitle {
+        margin-bottom: 40px;
+    }
+    a.places__redirection {
+        color: var(--main-light-color);
+        max-width: 130px;
+        padding: 13px;
+        background-color: var(--input-button-bg-color);
+        text-align: center;
+        font-size: 14px;
+    }
+    .places__city-item-info {
+        max-width: 85%;
+    }
+    
+    a.places__redirection:hover {
+        color: white;
+        background-color: black;
+    }
+    
 }
