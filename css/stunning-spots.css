@@ -1,0 +1,52 @@
+.stunning-spots {
+    max-width: 100vw;
+    height: 100%;
+    max-height: 150%;
+    background-color: var(--about-section-text-color);
+    padding-top: 50px;
+}
+
+.stunning-spots__info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.stunning-spots__title {
+    font-size: 12px;
+    color: var(--main-text-color);
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: .03em;
+}
+
+.stunning-spots__subtitle {
+    font-size: 34px;
+    font-family: var(--font-for-subtitle);
+    color: var(--main-light-color);
+    margin-bottom: 10px;
+    line-height: 1.2;
+    letter-spacing: .03em;
+    margin-top: 25px;
+}
+
+.stunning-spots__description {
+    font-size: 17px;
+    color: var(--main-text-color);
+    font-weight: 100;
+    letter-spacing: .03em;
+    line-height: 1.7;
+    margin-top: 50px;
+}
+
+.stunning-spots__quotation-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 60%;
+}
+
+.stunning-spots__quotation {
+    display: flex;
+    align-self: center;
+}
