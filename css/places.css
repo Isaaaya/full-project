@@ -124,6 +124,7 @@
     transition: 0.3s;
 }
 
+
 @media (min-width: 768px) {
     .places__city-item {
         display: grid;
@@ -156,4 +157,16 @@
         background-color: black;
     }
     
+}
+
+@media (min-width: 992px) {
+    .places__info {
+        width: 95%;
+        margin: auto; 
+    }
+    .places__city-item {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
 }
