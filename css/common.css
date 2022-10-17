@@ -51,3 +51,7 @@ span {
 .accented-text-dark-bg {
     color: var(--accented-text-color-dark-bg);
 }
+
+.center-container {
+    max-width: 1200px;
+}
