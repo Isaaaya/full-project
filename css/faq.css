@@ -41,9 +41,43 @@
 }
 
 .accordion {
-    margin-bottom: 50px;
+    margin: 40px auto 30px;
+    margin-left: -5px;
 }
 
 .accordion-item {
     color: var(--input-bg-color);
+}
+
+.faq__image {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .faq__image {
+        display: flex;
+        margin-top: -60px;
+    }
+    .faq {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 750px;
+    }
+    .faq__info-container {
+        margin-top: -60px;
+    }
+    .faq__subtitle {
+        font-size: 39px;
+    }
+    .faq__description {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) {
+    .faq__subtitle {
+        font-size: 45px;
+    }
 }
