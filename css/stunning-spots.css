@@ -39,12 +39,6 @@
     margin-top: 50px;
 }
 
-.stunning-spots__quotation-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 60%;
-}
 
 .stunning-spots__quotation {
     display: flex;
@@ -69,6 +63,7 @@
     margin: 10px auto 30px;
     font-size: 18px;
     font-family: var(--font-for-subtitle);
+    line-height: 1.88;
 }
 
 .stunning-spots__quotation-text-credit {
@@ -108,4 +103,20 @@
 .stunning-spots__quotation-image {
     position: relative;
     top: 3px;
+}
+
+@media (min-width: 768px) {
+    .stunning-spots__quotation {
+        width: 60%;
+        margin: auto;
+    }
+    .stunning-spots__quotation-text {
+        font-size: 19px;;
+    }
+}
+
+@media (min-width: 992px) {
+    .stunning-spots__quotation-text {
+        font-size: 21px;;
+    }
 }
