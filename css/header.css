@@ -136,6 +136,11 @@
     text-decoration: underline;
 }
 
+.navbar-toggler {
+    background-color: var(--main-light-color);
+}
+
+
 @media (min-width: 768px) {
     .header__aside {
         max-width: 30vw;
