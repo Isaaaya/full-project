@@ -63,7 +63,7 @@
     .faq {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 750px;
+        height: 850px;
     }
     .faq__info-container {
         margin-top: -60px;

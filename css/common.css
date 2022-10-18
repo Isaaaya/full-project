@@ -22,6 +22,7 @@
     --accented-text-color-dark-bg: #505155;
     --about-section-text-color: #232428;
     --dark-bg-main-text-color: #a9a9a9;
+    --light-bg-color: #f7f7f6;
 }
 
 ::placeholder {
