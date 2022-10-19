@@ -3,8 +3,8 @@
     background-size: cover;
     height: 800px;
     max-width: 100vw;
-    /* display: flex;
-    align-items: center; */
+    /* display: flex; */
+    align-items: center;
 }
 
 .contact-us__container {
@@ -77,9 +77,9 @@ input[type="submit"]:hover {
 
 
 @media (min-width: 768px) {
-    .contact-us {
-        max-width: 100vw;
-    }
+    /* .contact-us {
+        display: flex;
+    } */
 
     .contact-us__container {
         max-width: 45%;
