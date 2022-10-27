@@ -57,11 +57,16 @@
     color: var(--about-section-text-color);
 }
 
+.about__plan-item-image-container {
+    width : 100px;
+    height: 150px;
+}
+
 .about__plan-item-image {
-    max-width:  200px;
-    max-height: 200px;
+    width: 100%;
     margin-top: 20px;
     margin: auto;
+    object-fit: cover;
 }
 
 .about__plan-item-title {
