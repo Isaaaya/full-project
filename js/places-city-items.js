@@ -1,6 +1,8 @@
 
 (function () {
 
+
+
     const cities = [
         {
             id: 1,
@@ -99,10 +101,16 @@
         }
     ];
 
+    let currentCity = 1;
+    function changeCity() {
+      currentCity = 2;
+      renderCities(cities);
+    }
     function renderCities(cities) {
         const citiesContainer = document.querySelector(".places__city");
         citiesContainer.innerHTML = "";
-        for (const city of cities) {
+        const defaultCity = cities.filter(city => city.id === currentCity)
+        for (const city of defaultCity) {
             citiesContainer.innerHTML += `
             <article class="places__city-item">
               <div class="places__city-item-image-container">
@@ -139,6 +147,36 @@
         }
     }
     renderCities(cities);
+
+    document.querySelector(".oslo")
+    .addEventListener("click", () => {
+      currentCity = 1;
+      renderCities(cities);
+    });
+
+    document.querySelector(".trondheim")
+    .addEventListener("click", () => {
+      currentCity = 2;
+      renderCities(cities);
+    });
+
+    document.querySelector(".bodo")
+    .addEventListener("click", () => {
+      currentCity = 3;
+      renderCities(cities);
+    });
+
+    document.querySelector(".lofoten-islands")
+    .addEventListener("click", () => {
+      currentCity = 4;
+      renderCities(cities);
+    });
+
+    document.querySelector(".tromso")
+    .addEventListener("click", () => {
+      currentCity = 5;
+      renderCities(cities);
+    });
 
 })()
 
