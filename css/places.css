@@ -132,6 +132,25 @@
     transition: 0.3s;
 }
 
+.places__city-options-item {
+    background-color: white;
+    margin: 30px 20px 10px;
+    border: 0;
+    color: var(--accented-text-color-dark-bg);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.places__city-options-item:focus {
+    margin-bottom: 0;
+    border-bottom: 3px solid red;
+}
+
+.places__line {
+        width: 100%;
+        position: relative;
+        border-bottom: .01px solid black;
+}
 
 @media (min-width: 768px) {
     .places__city-item {

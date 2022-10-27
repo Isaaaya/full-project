@@ -115,14 +115,14 @@
                 </h3>
                 <p class="places__city-item-duration">${city.duration}</p>
                 <p class="places__city-item-place">${city.place}</p>
-                <p class="places__city-item-description">${city.decsription}</p>
+                <p class="places__city-item-description">${city.description}</p>
                 <div class="places__proposals">
                   <div class="places__proposal-container">
                     <img src="${city.firstProposalImgURL}" alt="${city.firstProposalImgAlt}" class="places__proposal-image" />
                     <p class="places__proposal-description">${city.firstProposalDescription}</p>
                   </div>
                   <div class="places__proposal-container">
-                    <img src="${city.secondProposalImgURL} alt="${city.secondProposalImgAlt}" class="places__proposal-image" />
+                    <img src="${city.secondProposalImgURL}" alt="${city.secondProposalImgAlt}" class="places__proposal-image" />
                     <p class="places__proposal-description">${city.secondProposalDescription}</p>
                   </div>
                   <div class="places__proposal-container">
