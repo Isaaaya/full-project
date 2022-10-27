@@ -1,6 +1,6 @@
 .faq {
     max-width: 100vw;
-    height: 1200px;
+    min-height: 1200px;
     max-height: 150%;
     background-color: var(--about-section-text-color);
     padding-top: 50px;

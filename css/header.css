@@ -18,8 +18,12 @@
     width: 200px;
 }
 
+.clock {
+    margin-top: 9px;
+}
+
 .header__menu-item {
-    padding: 5px;
+    padding: 10px;
 }
 
 .header__banner {
