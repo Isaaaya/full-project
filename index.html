@@ -415,27 +415,47 @@
       </div>
     </section>
     <section class="contact-us" id="contact-us">
-      <div class="center-container">
-        <div class="contact-us__container">
-          <h2 class="contact-us__title">
-            <span class="divider">━</span> CONTACT US
-          </h2>
-          <h3 class="contact-us__subtitle">Book your journey!</h3>
-          <p class="contact-us__description">
-            Complete the form below, and we will contact you soon to discuss the
-            details!
-          </p>
-          <div class="contact-us__form-container">
-            <form action="" class="contact-us__form" id="contact-us-form">
-              <input type="text" placeholder="Your Name" required name="client-name" />
+      <!-- <div class="center-container"> -->
+      <div class="contact-us__container">
+        <h2 class="contact-us__title">
+          <span class="divider">━</span> CONTACT US
+        </h2>
+        <h3 class="contact-us__subtitle">Book your journey!</h3>
+        <p class="contact-us__description">
+          Complete the form below, and we will contact you soon to discuss the
+          details!
+        </p>
+        <div class="contact-us__form-container">
+          <form name="form" action="" class="contact-us__form" id="contact-us-form">
+            <div class="form-item">
+              <input type="text" placeholder="Your Name" required name="client-name" class="client-name" />
+              <svg class="check-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <svg class="exclamation-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm32 224c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+              <small>Error Message</small>
+            </div>
+            <div class="form-item">
               <input type="tel" placeholder="Your Phone" required name="client-phone" />
+              <svg class="check-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <svg class="exclamation-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm32 224c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+              <small>Error Message</small>
+            </div>
+            <div class="form-item">
               <input type="email" placeholder="Your Email" required name="client-email" />
+              <svg class="check-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <svg class="exclamation-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm32 224c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+              <small>Error Message</small>
+            </div>
+            <div class="form-item">
               <input type="text" placeholder="Choose date" onfocus="(this.type='date')" />
-              <input type="submit" value="Request a quote" class="contact-us__form-submit-input" />
-            </form>
-          </div>
+              <svg class="check-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+              <svg class="exclamation-svg" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm32 224c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+              <small>Error Message</small>
+            </div>
+            <input type="submit" value="Request a quote" class="contact-us__form-submit-input" />
+          </form>
         </div>
       </div>
+      <!-- </div> -->
     </section>
     <section class="testimonials" id="testimonials">
       <div class="center-container">
@@ -630,9 +650,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/about-us-items.js"></script>
-    <script src="js/places-city-items.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/about-us-items.js"></script>
+  <script src="js/places-city-items.js"></script>
+  <script src="js/form.js"></script>
 </body>
 
 </html>
