@@ -22,13 +22,13 @@
 input {
     display: block;
     margin: auto;
-    margin-bottom: 14px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 14px 20px;
-    height: 45px;
+    height: 55px;
     background-color: var(--input-bg-color);
     border: #232428;
     width: 100%;
+    color: aliceblue;
 }
 
 .contact-us__form-container {
@@ -37,7 +37,7 @@ input {
 }
 
 input[type="submit"] {
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: var(--input-button-bg-color);
     color: var(--main-light-color);
     font-weight: 600;
@@ -109,51 +109,21 @@ input[type="submit"]:hover {
 
 }
 
-.form-item small {
-    color: aliceblue;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    visibility: hidden;
+.input-control.success input {
+    border: 3px solid;
+    border-color: #09c372;
 }
 
-.check-svg {
-    fill: green;
+.input-control.error input {
+    border: 3px solid;
+   border-color: #ff386069;
 }
 
-.exclamation-svg {
-    fill: #D2042D;
-}
-
-.form-item {
-    position: relative;
-    margin: 40px auto;
-}
-
-.form-item svg {
-    position: absolute;
-    top: 13px;
-    right: 20px; 
-    visibility: hidden;
-}
-
-.form-item.success input {
-    border-color: green;
-}
-
-.form-item.exclamation input {
-    border-color: #D2042D;
-}
-
-.form-item.success .check-svg {
-    visibility: visible;
-}
-
-.form-item.exclamation .exclamation-svg {
-    visibility: visible;
-}
-
-.form-item.error small {
-    color: #D2042D;
-    visibility: visible;
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 10px;
+    text-align: start;
+    margin-top: -10px;
+    margin-bottom: 5px;
 }
