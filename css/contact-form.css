@@ -31,6 +31,15 @@ input {
     color: aliceblue;
 }
 
+.date {
+    color: var(--main-color-inputs);
+    font-size: 15px;
+}
+
+input::placeholder {
+    padding-left : 1px;
+}
+
 .contact-us__form-container {
     width: 100%;
     margin-top: 20px;
@@ -123,6 +132,10 @@ input[type="submit"]:hover {
     border: 1px solid red;
 }
 
+.green-border {
+    border: 2px solid green;
+}
+
 .input-group span .success{
     color: white;
     border-radius: 50%;
@@ -132,10 +145,11 @@ input[type="submit"]:hover {
     position: absolute;
     bottom: 2px;
     right: -10px;
-    font-weight: 700;
+    font-weight: 500;
     align-items: center; 
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 
