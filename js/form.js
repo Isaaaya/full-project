@@ -1,4 +1,3 @@
-// const e = require("express");
 
 // (function () {
   const nameInput = document.querySelector(".client-name");
@@ -11,6 +10,12 @@
   const submitError = document.querySelector(".submit-error");
   const date = document.querySelector(".date").valueAsDate = new Date();
 
+  let today = new Date();
+  let day = today.getDate();
+  let month = today.getMonth()+1; 
+  let year = today.getFullYear();
+  today = `${year}-${month}-${day}`
+  document.querySelector(".date").setAttribute("min", today);
 
   function validateName() {
     const name = document.querySelector(".client-name").value;
@@ -90,10 +95,8 @@
    }
   }
 
-
   function validateForm() {
     if (!validateName() || !validateName() || !validatePhone() || !validateEmail()) {
-        
         return false;
     }
   
