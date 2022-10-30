@@ -414,8 +414,29 @@
         </div> -->
       </div>
     </section>
-    <section class="contact-us" id="contact-us">
+    <div class="contact-us" id="contact-us">
       <!-- <div class="center-container"> -->
+        <div class="contact-us__countdown-container">
+          <p class="discount-caption"><span class="highlighted-text">25%</span> Off only</p>
+          <div class="launch-time">
+            <div>
+              <p class="days">00</p>
+              <span>Days</span>
+            </div>
+            <div>
+              <p class="hours">00</p>
+              <span>Hours</span>
+            </div>
+            <div>
+              <p class="minutes">00</p>
+              <span>Minutes</span>
+            </div>
+            <div>
+              <p class="seconds">00</p>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
       <div class="contact-us__container">
         <h2 class="contact-us__title">
           <span class="divider">━</span> CONTACT US
@@ -428,31 +449,32 @@
         <div class="contact-us__form-container">
           <form name="form" action="" class="contact-us__form" id="contact-us-form">
             <div class="input-group">
-              <input type="text" placeholder="Your Name" name="client-name" class="client-name" onkeyup="validateName()"/>
+              <input type="text" placeholder="Your Name" name="client-name" class="client-name"
+                onkeyup="validateName()" />
               <span id="name-error" class="client-name-error"></span>
             </div>
             <div class="input-group">
-              <input type="tel" placeholder="Your Phone" name="client-phone" class="client-phone" onkeyup="validatePhone()"/>
+              <input type="tel" placeholder="Your Phone" name="client-phone" class="client-phone"
+                onkeyup="validatePhone()" />
               <span id="phone-error" class="client-phone-error"></span>
             </div>
             <div class="input-group">
-              <input type="email" placeholder="Your Email" name="client-email" class="client-email" onkeyup="validateEmail()"/>
+              <input type="email" placeholder="Your Email" name="client-email" class="client-email"
+                onkeyup="validateEmail()" />
               <span id="email-error" class="client-email-error"></span>
             </div>
             <div class="input-group">
               <input type="date" id="date" class="date" name="date" id="datePicker" onkeyup="validateDate()">
               <span id="date-error" class="client-date-error"></span>
             </div>
-              <input type="submit" value="Request a quote" class="contact-us__form-submit-input" onclick="return validateForm()"/>
-              <span id="submit-error" class="submit-error"></span>
+            <input type="submit" value="Request a quote" class="contact-us__form-submit-input"
+              onclick="return validateForm()" />
+            <span id="submit-error" class="submit-error"></span>
           </form>
         </div>
       </div>
-      <div class="contact-us__countdown-container">
-          <p class="discount-caption">25% Off</p>
-      </div>
       <!-- </div> -->
-    </section>
+    </div>
     <section class="testimonials" id="testimonials">
       <div class="center-container">
         <div class="testimonials__info">
@@ -650,6 +672,7 @@
   <script src="js/about-us-items.js"></script>
   <script src="js/places-city-items.js"></script>
   <script src="js/form.js"></script>
+  <script src="js/contact-us-countdown.js"></script>
 </body>
 
 </html>
