@@ -26,13 +26,13 @@
         return false;
     }
     if (name.length < 5) {
-        nameError.innerHTML = "Name must consist of at least 5 letters";
+        nameError.innerHTML = "Must be least 5 letters";
         nameInput.classList.remove("green-border");
         nameInput.classList.add("red-border");
         return false;
     }
     if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
-        nameError.innerHTML = "Enter a full name";
+        nameError.innerHTML = "Enter the full name";
         nameInput.classList.remove("green-border");
         nameInput.classList.add("red-border");
         return false;
@@ -54,7 +54,7 @@
         return false;
     }
     if (phone.length !== 10) {
-        phoneError.innerHTML = "Phone must consist of 10 digits";
+        phoneError.innerHTML = "Must be 10 digits";
         phoneInput.classList.add("red-border");
         phoneInput.classList.remove("green-border");
         return false;

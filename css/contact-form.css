@@ -85,47 +85,12 @@ input[type="submit"]:hover {
     font-weight: 400;
 }
 
-
-@media (min-width: 768px) {
-    /* .contact-us {
-        display: flex;
-    } */
-
-    .contact-us__container {
-        max-width: 45%;
-        max-height: 730px;
-        margin-left: 50px;
-    }
-
-    .contact-us__subtitle {
-        font-size: 39px;
-    }
-
-    .contact-us__description {
-        font-size: 17px;
-    }
-}
-
-@media (min-width: 992px) {
-
-    .contact-us__title {
-        font-size: 13px;
-    }
-
-    .contact-us__subtitle {
-        font-size: 45px;
-    }
-
-}
-
-
-
 .input-group span {
     color: rgb(213, 61, 61);
     position: absolute;
     bottom: 25px;
     right: 17px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .red-border {
@@ -157,3 +122,41 @@ input[type="submit"]:hover {
     color: red;
 }
 
+@media (min-width: 768px) {
+    /* .contact-us {
+        display: flex;
+    } */
+
+    .contact-us__container {
+        max-width: 45%;
+        max-height: 730px;
+        margin-left: 50px;
+    }
+
+    .contact-us__subtitle {
+        font-size: 39px;
+    }
+
+    .contact-us__description {
+        font-size: 17px;
+    }
+    .input-group span {
+       font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .contact-us__title {
+        font-size: 13px;
+    }
+
+    .contact-us__subtitle {
+        font-size: 45px;
+    }
+
+    .input-group span {
+        font-size: 15px;
+     }
+
+}
