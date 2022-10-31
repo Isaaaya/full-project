@@ -1,14 +1,20 @@
 
-// (function () {
+(function () {
   const nameInput = document.querySelector(".client-name");
   const phoneInput = document.querySelector(".client-phone");
   const emailInput = document.querySelector(".client-email");
+  const submitInput = document.querySelector(".contact-us__form-submit-input");
   const nameError = document.querySelector(".client-name-error");
   const phoneError = document.querySelector(".client-phone-error");
   const emailError = document.querySelector(".client-email-error");
   const dateError = document.querySelector(".client-date-error");
   const submitError = document.querySelector(".submit-error");
   const date = document.querySelector(".date").valueAsDate = new Date();
+
+  nameInput.addEventListener("keyup", validateName);
+  phoneInput.addEventListener("keyup", validatePhone);
+  emailInput.addEventListener("keyup", validateEmail);
+  submitInput.addEventListener("click", validateForm);
 
   let today = new Date();
   let day = today.getDate();
@@ -44,6 +50,8 @@
     return true;
    }
   }
+
+
   
   function validatePhone() {
     const phone = document.querySelector(".client-phone").value;
@@ -95,11 +103,12 @@
    }
   }
 
-  function validateForm() {
+  function validateForm(e) {
     if (!validateName() || !validateName() || !validatePhone() || !validateEmail()) {
+        e.preventDefault();
         return false;
     }
   
   }
-// }
-// )()
+}
+)()
