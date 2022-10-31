@@ -18,7 +18,6 @@
         document.querySelector(".seconds").innerHTML = seconds;
 
         if (difference < 0) {
-            clearInterval(x);
             document.querySelector(".days").innerHTML = "00";
             document.querySelector(".hours").innerHTML = "00";
             document.querySelector(".minutes").innerHTML = "00";
