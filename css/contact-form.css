@@ -9,6 +9,10 @@
     padding-bottom: 50px;
 }
 
+/* .container-center {
+    max-width: 1200px;
+} */
+
 .contact-us__container {
     max-width: 90%;
     max-height: 90%;
@@ -22,7 +26,7 @@
 }
 
 .contact-us__countdown-container {
-    min-width: 80%;
+    max-width: 90%;
     height: 300px;
     background-color: var(--about-section-text-color);
     margin: 50px auto;
