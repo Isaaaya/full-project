@@ -18,7 +18,7 @@
 
   let today = new Date();
   let day = today.getDate();
-  let month = today.getMonth()+1; 
+  let month = today.getMonth() + 1; 
   let year = today.getFullYear();
   today = `${year}-${month}-${day}`
   document.querySelector(".date").setAttribute("min", today);
