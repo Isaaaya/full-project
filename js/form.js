@@ -15,7 +15,15 @@
   phoneInput.addEventListener("keyup", validatePhone);
   emailInput.addEventListener("keyup", validateEmail);
   submitInput.addEventListener("click", validateForm);
+  submitInput.addEventListener("click", () => {
+    validateForm();
+    setTimeout(clearForm, 0);
+  });
 
+  function submitForm() {
+    submitInput.submit();
+    clearForm();
+  }
 
   let today = new Date();
   let day = today.getDate();
@@ -121,10 +129,6 @@
         e.preventDefault();
         return false;
     }
-    else {
-        // clearForm();
-    }
-  
   }
 }
 )()
