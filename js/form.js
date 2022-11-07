@@ -16,6 +16,7 @@
   emailInput.addEventListener("keyup", validateEmail);
   submitInput.addEventListener("click", validateForm);
 
+
   let today = new Date();
   let day = today.getDate();
   let month = today.getMonth() + 1; 
@@ -103,10 +104,25 @@
    }
   }
 
+  function clearForm() {
+    nameInput.value = '';
+    phoneInput.value = '';
+    emailInput.value = '';
+    nameInput.className = '';
+    nameError.innerHTML = '';
+    phoneInput.className = '';
+    phoneError.innerHTML = '';
+    emailInput.className = '';
+    emailError.innerHTML = '';
+  }
+
   function validateForm(e) {
     if (!validateName() || !validateName() || !validatePhone() || !validateEmail()) {
         e.preventDefault();
         return false;
+    }
+    else {
+        // clearForm();
     }
   
   }
